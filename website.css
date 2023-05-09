@@ -1,0 +1,117 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #3DB166;
+	color: #fff;
+	padding: 10px;
+}
+.logo-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    z-index: 9999;
+}
+  
+.logo-container img {
+    
+    max-width: 100%;
+    height: 150px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+section {
+	padding: 50px;
+}
+
+section h2 {
+	font-size: 36px;
+	color: #333;
+	margin-bottom: 30px;
+}
+
+section ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+section li {
+	margin-bottom: 10px;
+}
+.confess-container {
+    text-align: center;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 0px solid rgb(51, 51, 51);
+    padding: 10px;
+    z-index: 9999;
+  }
+  
+  .confess-container h2 {
+    text-align: center;
+    margin-top: 2px;
+  }
+  
+  .confess-container form {
+    text-align: center;
+  }
+  
+  .confess-container textarea {
+    width: 90%;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+
+form label {
+	display: block;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    background-color: #B2BEB5;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+}
+
+form input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
